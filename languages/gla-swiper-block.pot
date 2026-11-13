@@ -1,0 +1,185 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GLA Swiper Block 1.0.0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: gla-swiper-block\n"
+
+msgid "Previous slide"
+msgstr ""
+
+msgid "Next slide"
+msgstr ""
+
+msgid "This is the first slide"
+msgstr ""
+
+msgid "This is the last slide"
+msgstr ""
+
+msgid "Go to slide {{index}}"
+msgstr ""
+
+msgid "Carousel"
+msgstr ""
+
+msgid "GLA Swiper Block: the build folder is missing. Run \"npm install && npm run build\" in the plugin directory."
+msgstr ""
+
+msgid "Swiper Slider"
+msgstr ""
+
+msgid "A responsive slider with swipe support and configurable effects."
+msgstr ""
+
+msgid "slider"
+msgstr ""
+
+msgid "carousel"
+msgstr ""
+
+msgid "swiper"
+msgstr ""
+
+msgid "slideshow"
+msgstr ""
+
+msgid "Slide"
+msgstr ""
+
+msgid "A single slide of the Swiper Slider. Add any blocks inside."
+msgstr ""
+
+msgid "Slide %d"
+msgstr ""
+
+msgid "Slider"
+msgstr ""
+
+msgid "Effect"
+msgstr ""
+
+msgid "Fade"
+msgstr ""
+
+msgid "Cube"
+msgstr ""
+
+msgid "Coverflow"
+msgstr ""
+
+msgid "Flip"
+msgstr ""
+
+msgid "Cards"
+msgstr ""
+
+msgid "Creative"
+msgstr ""
+
+msgid "Shows one slide at a time."
+msgstr ""
+
+msgid "Works best with three or more slides per view."
+msgstr ""
+
+msgid "Speed (ms)"
+msgstr ""
+
+msgid "Loop"
+msgstr ""
+
+msgid "Direction"
+msgstr ""
+
+msgid "Horizontal"
+msgstr ""
+
+msgid "Vertical"
+msgstr ""
+
+msgid "Adjust height to active slide"
+msgstr ""
+
+msgid "Accessible label"
+msgstr ""
+
+msgid "Describes the slider for screen reader users."
+msgstr ""
+
+msgid "Layout"
+msgstr ""
+
+msgid "Slides per view (mobile)"
+msgstr ""
+
+msgid "Slides per view (tablet, from 640 px)"
+msgstr ""
+
+msgid "Slides per view (desktop, from 1024 px)"
+msgstr ""
+
+msgid "Gap (mobile)"
+msgstr ""
+
+msgid "Gap (tablet)"
+msgstr ""
+
+msgid "Gap (desktop)"
+msgstr ""
+
+msgid "Minimum height"
+msgstr ""
+
+msgid "Aspect ratio"
+msgstr ""
+
+msgid "Auto"
+msgstr ""
+
+msgid "Autoplay"
+msgstr ""
+
+msgid "Delay (ms)"
+msgstr ""
+
+msgid "Pause on hover"
+msgstr ""
+
+msgid "Navigation"
+msgstr ""
+
+msgid "Show arrows"
+msgstr ""
+
+msgid "Pagination"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Bullets"
+msgstr ""
+
+msgid "Fraction"
+msgstr ""
+
+msgid "Progress bar"
+msgstr ""
+
+msgid "Colors"
+msgstr ""
+
+msgid "Arrow color"
+msgstr ""
+
+msgid "Pagination color"
+msgstr ""
+
+msgid "Back to editing"
+msgstr ""
+
+msgid "Preview effect"
+msgstr ""
+

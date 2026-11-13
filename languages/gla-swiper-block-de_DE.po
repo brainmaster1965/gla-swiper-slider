@@ -1,0 +1,187 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GLA Swiper Block 1.0.0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Domain: gla-swiper-block\n"
+
+msgid "Previous slide"
+msgstr "Vorherige Folie"
+
+msgid "Next slide"
+msgstr "Nächste Folie"
+
+msgid "This is the first slide"
+msgstr "Dies ist die erste Folie"
+
+msgid "This is the last slide"
+msgstr "Dies ist die letzte Folie"
+
+msgid "Go to slide {{index}}"
+msgstr "Zu Folie {{index}} wechseln"
+
+msgid "Carousel"
+msgstr "Karussell"
+
+msgid "GLA Swiper Block: the build folder is missing. Run \"npm install && npm run build\" in the plugin directory."
+msgstr "GLA Swiper Block: Der Build-Ordner fehlt. Führe „npm install && npm run build“ im Plugin-Verzeichnis aus."
+
+msgid "Swiper Slider"
+msgstr "Swiper-Slider"
+
+msgid "A responsive slider with swipe support and configurable effects."
+msgstr "Ein responsiver Slider mit Swipe-Unterstützung und konfigurierbaren Effekten."
+
+msgid "slider"
+msgstr "Slider"
+
+msgid "carousel"
+msgstr "Karussell"
+
+msgid "swiper"
+msgstr "Swiper"
+
+msgid "slideshow"
+msgstr "Diashow"
+
+msgid "Slide"
+msgstr "Folie"
+
+msgid "A single slide of the Swiper Slider. Add any blocks inside."
+msgstr "Eine einzelne Folie des Swiper-Sliders. Füge beliebige Blöcke hinzu."
+
+msgid "Slide %d"
+msgstr "Folie %d"
+
+msgid "Slider"
+msgstr "Slider"
+
+msgid "Effect"
+msgstr "Effekt"
+
+msgid "Fade"
+msgstr "Überblenden"
+
+msgid "Cube"
+msgstr "Würfel"
+
+msgid "Coverflow"
+msgstr "Coverflow"
+
+msgid "Flip"
+msgstr "Flip"
+
+msgid "Cards"
+msgstr "Karten"
+
+msgid "Creative"
+msgstr "Kreativ"
+
+msgid "Shows one slide at a time."
+msgstr "Zeigt jeweils eine Folie."
+
+msgid "Works best with three or more slides per view."
+msgstr "Funktioniert am besten mit drei oder mehr Folien pro Ansicht."
+
+msgid "Speed (ms)"
+msgstr "Geschwindigkeit (ms)"
+
+msgid "Loop"
+msgstr "Endlosschleife"
+
+msgid "Direction"
+msgstr "Richtung"
+
+msgid "Horizontal"
+msgstr "Horizontal"
+
+msgid "Vertical"
+msgstr "Vertikal"
+
+msgid "Adjust height to active slide"
+msgstr "Höhe an aktive Folie anpassen"
+
+msgid "Accessible label"
+msgstr "Beschriftung für Screenreader"
+
+msgid "Describes the slider for screen reader users."
+msgstr "Beschreibt den Slider für Screenreader-Nutzer."
+
+msgid "Layout"
+msgstr "Layout"
+
+msgid "Slides per view (mobile)"
+msgstr "Folien pro Ansicht (Mobil)"
+
+msgid "Slides per view (tablet, from 640 px)"
+msgstr "Folien pro Ansicht (Tablet, ab 640 px)"
+
+msgid "Slides per view (desktop, from 1024 px)"
+msgstr "Folien pro Ansicht (Desktop, ab 1024 px)"
+
+msgid "Gap (mobile)"
+msgstr "Abstand (Mobil)"
+
+msgid "Gap (tablet)"
+msgstr "Abstand (Tablet)"
+
+msgid "Gap (desktop)"
+msgstr "Abstand (Desktop)"
+
+msgid "Minimum height"
+msgstr "Mindesthöhe"
+
+msgid "Aspect ratio"
+msgstr "Seitenverhältnis"
+
+msgid "Auto"
+msgstr "Automatisch"
+
+msgid "Autoplay"
+msgstr "Autoplay"
+
+msgid "Delay (ms)"
+msgstr "Verzögerung (ms)"
+
+msgid "Pause on hover"
+msgstr "Bei Hover pausieren"
+
+msgid "Navigation"
+msgstr "Navigation"
+
+msgid "Show arrows"
+msgstr "Pfeile anzeigen"
+
+msgid "Pagination"
+msgstr "Pagination"
+
+msgid "None"
+msgstr "Keine"
+
+msgid "Bullets"
+msgstr "Punkte"
+
+msgid "Fraction"
+msgstr "Zähler"
+
+msgid "Progress bar"
+msgstr "Fortschrittsbalken"
+
+msgid "Colors"
+msgstr "Farben"
+
+msgid "Arrow color"
+msgstr "Pfeilfarbe"
+
+msgid "Pagination color"
+msgstr "Pagination-Farbe"
+
+msgid "Back to editing"
+msgstr "Zurück zum Bearbeiten"
+
+msgid "Preview effect"
+msgstr "Effekt-Vorschau"
+

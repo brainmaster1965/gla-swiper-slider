@@ -1,0 +1,27 @@
+{
+	"name": "gla-swiper-block",
+	"version": "1.0.0",
+	"description": "A pure slider block for the WordPress block editor, powered by Swiper.",
+	"license": "GPL-2.0-or-later",
+	"private": true,
+	"scripts": {
+		"build": "wp-scripts build",
+		"start": "wp-scripts start",
+		"format": "wp-scripts format",
+		"lint:js": "wp-scripts lint-js",
+		"lint:css": "wp-scripts lint-style",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"i18n": "wp i18n make-pot . languages/gla-swiper-block.pot --exclude=node_modules,src && wp i18n update-po languages/gla-swiper-block.pot languages && wp i18n make-mo languages && wp i18n make-json languages --no-purge"
+	},
+	"files": [
+		"gla-swiper-block.php",
+		"build",
+		"includes",
+		"languages",
+		"README.md"
+	],
+	"devDependencies": {
+		"@wordpress/scripts": "^30.0.0",
+		"swiper": "12.2.0"
+	}
+}

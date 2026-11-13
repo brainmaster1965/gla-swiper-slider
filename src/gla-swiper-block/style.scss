@@ -1,0 +1,101 @@
+/**
+ * Front-end + editor styles.
+ *
+ * Swiper's own stylesheets are loaded INSIDE the block's wrapper selector
+ * (via meta.load-css), so they only apply to this block and cannot clash with
+ * other plugins that ship a different Swiper version or its own .swiper CSS.
+ */
+@use "sass:meta";
+
+.wp-block-gla-swiper-block {
+	// Colors: set via the block's color settings (CSS variables on the wrapper).
+	--swiper-theme-color: var(--gla-swiper-bullet-color, #fff);
+	--swiper-navigation-color: var(--gla-swiper-arrow-color, #fff);
+	--swiper-pagination-color: var(--gla-swiper-bullet-color, #fff);
+	--swiper-pagination-bullet-inactive-color: var(--gla-swiper-bullet-color, #fff);
+	--swiper-pagination-bullet-inactive-opacity: 0.45;
+	--swiper-navigation-size: 44px;
+	--swiper-navigation-sides-offset: 10px;
+
+	position: relative;
+	max-width: 100%;
+	min-width: 0;
+
+	@include meta.load-css("../../node_modules/swiper/swiper.css");
+	@include meta.load-css("../../node_modules/swiper/modules/navigation.css");
+	@include meta.load-css("../../node_modules/swiper/modules/pagination.css");
+	@include meta.load-css("../../node_modules/swiper/modules/a11y.css");
+	@include meta.load-css("../../node_modules/swiper/modules/effect-fade.css");
+	@include meta.load-css("../../node_modules/swiper/modules/effect-cube.css");
+	@include meta.load-css("../../node_modules/swiper/modules/effect-coverflow.css");
+	@include meta.load-css("../../node_modules/swiper/modules/effect-flip.css");
+	@include meta.load-css("../../node_modules/swiper/modules/effect-cards.css");
+	@include meta.load-css("../../node_modules/swiper/modules/effect-creative.css");
+
+	.gla-swiper__container {
+		min-width: 0;
+	}
+
+	// Lets slides fill a min-height set on the container.
+	.swiper-wrapper {
+		min-height: inherit;
+	}
+
+	.swiper-slide.wp-block-gla-swiper-slide {
+		display: flex;
+		flex-direction: column;
+		box-sizing: border-box;
+
+		// A cover block fills the whole slide.
+		> .wp-block-cover {
+			flex: 1 1 auto;
+		}
+
+		// An image block fills the whole slide (instead of sitting left-aligned
+		// at its natural size). With a min-height / aspect ratio set on the
+		// slider the image is cropped to fit (object-fit: cover).
+		> .wp-block-image {
+			flex: 1 1 auto;
+			width: 100%;
+			margin: 0;
+
+			> a {
+				display: block;
+				height: 100%;
+			}
+
+			img {
+				display: block;
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+	}
+
+	// Keep arrows and bullets readable on any background.
+	.swiper-button-prev,
+	.swiper-button-next,
+	.swiper-pagination-bullets,
+	.swiper-pagination-fraction {
+		filter: drop-shadow(0 1px 2px rgb(0 0 0 / 45%));
+	}
+
+	.swiper-pagination-fraction {
+		color: var(--swiper-pagination-color);
+	}
+
+	.swiper-button-prev:focus-visible,
+	.swiper-button-next:focus-visible,
+	.swiper-pagination-bullet:focus-visible {
+		outline: 2px solid var(--swiper-navigation-color);
+		outline-offset: 2px;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.wp-block-gla-swiper-block .swiper-wrapper,
+	.wp-block-gla-swiper-block .swiper-slide {
+		transition-duration: 0s !important;
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "gla/swiper-slide",
+	"version": "1.0.0",
+	"title": "Slide",
+	"category": "media",
+	"icon": "cover-image",
+	"description": "A single slide of the Swiper Slider. Add any blocks inside.",
+	"parent": [ "gla/swiper-block" ],
+	"textdomain": "gla-swiper-block",
+	"supports": {
+		"html": false,
+		"reusable": false,
+		"color": { "background": true, "text": true },
+		"spacing": { "padding": true }
+	},
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css"
+}

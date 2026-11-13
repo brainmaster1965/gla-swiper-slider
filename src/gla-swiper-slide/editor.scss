@@ -1,0 +1,14 @@
+.gla-swiper-slide-editor {
+	border: 1px solid #ddd;
+	border-radius: 2px;
+	padding: 8px 12px 12px;
+
+	&__label {
+		font-size: 11px;
+		font-weight: 600;
+		letter-spacing: 0.05em;
+		text-transform: uppercase;
+		opacity: 0.6;
+		margin-bottom: 8px;
+	}
+}
