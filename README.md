@@ -1,7 +1,9 @@
-# GLA Swiper Block
+# <span style="display: inline-block; vertical-align: middle;"><img src="https://img.shields.io/badge/v1.0.0-f1683a?style=for-the-badge&logoColor=white" alt="v1.0.0"></span> Gla Swiper Block - Wordpress
 
 A pure slider block (`gla/swiper-block` with child block `gla/swiper-slide`) for the
 WordPress block editor, powered by [Swiper](https://swiperjs.com) 12.2.0.
+
+![Swiper Slider preview](swiperslider-preview.png)
 
 Requires WordPress 6.5+ and PHP 7.4+.
 
@@ -18,16 +20,16 @@ Copy the folder to `wp-content/plugins/gla-swiper-block` (with `build/`) and act
 
 ## How it works
 
-- Parent block `gla/swiper-block` is rendered server-side (`render.php`); the slides are InnerBlocks
-  (`gla/swiper-slide`) and can contain any block.
-- Swiper is imported from npm and bundled into the block's own view script. Nothing is exposed
-  on `window`, so other plugins shipping Swiper cannot collide with it (the library is then
-  transferred twice if both are on one page - deliberate trade-off for stability).
-- Script and CSS load only on pages that contain the block (`viewScript` / `style` in `block.json`).
-- Swiper's CSS is nested under `.wp-block-gla-swiper-block` at build time (`meta.load-css` in
-  `src/gla-swiper-block/style.scss`), so it cannot affect other `.swiper` markup.
-- Each slider is initialized independently; any number per page.
-- `prefers-reduced-motion`: no autoplay, effects fall back to an instant slide.
+-   Parent block `gla/swiper-block` is rendered server-side (`render.php`); the slides are InnerBlocks
+    (`gla/swiper-slide`) and can contain any block.
+-   Swiper is imported from npm and bundled into the block's own view script. Nothing is exposed
+    on `window`, so other plugins shipping Swiper cannot collide with it (the library is then
+    transferred twice if both are on one page - deliberate trade-off for stability).
+-   Script and CSS load only on pages that contain the block (`viewScript` / `style` in `block.json`).
+-   Swiper's CSS is nested under `.wp-block-gla-swiper-block` at build time (`meta.load-css` in
+    `src/gla-swiper-block/style.scss`), so it cannot affect other `.swiper` markup.
+-   Each slider is initialized independently; any number per page.
+-   `prefers-reduced-motion`: no autoplay, effects fall back to an instant slide.
 
 ## Styling
 
@@ -37,9 +39,9 @@ Everything else can be adjusted with CSS variables on the block wrapper (e.g. in
 
 ```css
 .wp-block-gla-swiper-block {
-	--swiper-navigation-size: 28px;               /* arrow size (default 44px) */
-	--swiper-navigation-sides-offset: 10px;       /* arrow distance from the edge */
-	--swiper-pagination-bullet-size: 12px;        /* bullet size */
+	--swiper-navigation-size: 28px; /* arrow size (default 44px) */
+	--swiper-navigation-sides-offset: 10px; /* arrow distance from the edge */
+	--swiper-pagination-bullet-size: 12px; /* bullet size */
 	--swiper-pagination-bullet-horizontal-gap: 6px;
 	--swiper-pagination-bullet-inactive-opacity: 0.45;
 }
